@@ -1,0 +1,8 @@
+region      = "us-west-1"
+environment = "dev"
+app_name    = "DWP-CV"
+instance_name = "DWP-CV-node"
+instance_type = "m5.large"
+autoScaling_grp1_min_node = "2"
+autoScaling_grp2_min_node = "1"
+app_namespace = "dwp-cv-dev"
